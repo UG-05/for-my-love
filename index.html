@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Для самой любимой ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Marck+Script&display=swap');
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff8f5;color:#482c38;font-family:Comfortaa,sans-serif;line-height:1.8}
+.hero{min-height:100vh;padding:30px 20px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(145deg,#fff0f3,#f5cbd7,#fff8f5)}
+h1,h2,.script{font-family:"Marck Script",cursive;font-weight:400}
+h1{font-size:clamp(48px,10vw,85px);line-height:1.2;margin:20px 0}
+h2{font-size:clamp(38px,7vw,56px);line-height:1.3}
+.hero p{max-width:470px;font-size:14px}
+.eyebrow{letter-spacing:3px;color:#b94f6b;font-size:11px;text-transform:uppercase}
+.btn{display:inline-block;padding:14px 25px;margin-top:20px;border:0;border-radius:40px;background:#b94f6b;color:white;text-decoration:none;font:inherit;cursor:pointer;transition:.25s}
+.btn:hover{transform:translateY(-3px)}
+section{padding:65px 18px}
+.section-title{text-align:center;margin:0 0 10px}
+.subtitle{text-align:center;max-width:550px;margin:0 auto 35px;color:#876b76;font-size:13px}
+.gallery{max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.photo{background:white;padding:10px 10px 18px;border-radius:16px;box-shadow:0 8px 25px #6d334012}
+.photo img{width:100%;aspect-ratio:4/4.5;object-fit:cover;border-radius:10px;background:#f3dce2;display:block}
+.photo h3{font-size:13px;margin:12px 5px 5px}
+.photo p{font-size:11px;line-height:1.8;color:#866c76;margin:0 5px}
+.story{background:#fae9ed;text-align:center}
+.inner{max-width:650px;margin:auto}
+.story p,.promise p{font-size:14px}
+.date{letter-spacing:3px;font-size:12px;color:#b94f6b}
+.heart{font-size:38px;color:#b94f6b}
+.promise{text-align:center;background:white}
+blockquote{font:30px/1.5 "Marck Script",cursive;color:#b94f6b;margin:25px 0}
+.quiz{background:linear-gradient(145deg,#fff2f4,#f4d0dc);text-align:center}
+.quiz-box{max-width:530px;margin:25px auto 0;padding:25px 20px;background:#ffffffdf;border-radius:23px;box-shadow:0 10px 35px #8d3d5315}
+.progress{height:5px;background:#f2dce2;border-radius:10px;overflow:hidden;margin-bottom:20px}
+.bar{height:100%;width:0;background:#b94f6b;transition:.3s}
+#question{font-size:16px;font-weight:700;line-height:1.8}
+.answers{display:grid;gap:10px;margin-top:20px}
+.answer{padding:12px;background:white;color:#482c38;border:1px solid #efd3dc;border-radius:13px;font:inherit;font-size:13px;cursor:pointer}
+.answer:hover,.answer.selected{border-color:#b94f6b;background:#fff0f4}
+#feedback{color:#b94f6b;font-size:12px;margin-top:15px;min-height:24px}
+footer{text-align:center;padding:30px 15px;font-size:11px;color:#9a7b86}
+.hidden{display:none!important}
+@media(max-width:480px){.gallery{gap:10px}.photo{padding:6px 6px 12px}.photo h3{font-size:11px}.photo p{font-size:10px}section{padding:50px 12px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <span class="eyebrow">Тебе, моя любовь ♡</span>
+  <h1>Я так по тебе<br>скучаю...</h1>
+  <p>Иногда хочется просто оказаться рядом с тобой, крепко обнять и больше никуда не отпускать. Поэтому я решил сохранить частичку нашей истории здесь.</p>
+  <a class="btn" href="#memories">Наша история ♡</a>
+</header>
+
+<section id="memories">
+  <h2 class="section-title">Моменты, в которых мы</h2>
+  <p class="subtitle">Восемь фотографий, за которыми скрывается целый мир, понятный только нам двоим.</p>
+  <div class="gallery">
+
+    <article class="photo">
+      <img src="photos/photo1.jpg" alt="Наше знакомство">
+      <h3>01. Случайность, ставшая судьбой ♡</h3>
+      <p>Кто бы мог подумать, что обычное знакомство на БЗВП однажды станет началом моей самой любимой истории.</p>
+    </article>
+
+    <article class="photo">
+      <img src="photos/photo2.jpg" alt="Наш вечер">
+      <h3>02. Тот самый вечер</h3>
+      <p>Блиндаж, разговоры, объятия и ты рядом. Вроде ничего необычного, а для меня — один из самых тёплых вечеров в жизни.</p>
+    </article>
+
+    <article class="photo">
+      <img src="photos/photo3.jpg" alt="Наши воспоминания">
+      <h3>03. Наш маленький мир</h3>
+      <p>Когда ты рядом, даже самое обычное место становится особенным. Потому что мой уют — это ты.</p>
+    </article>
+
+    <article class="photo">
+      <img src="photos/photo4.jpg" alt="Совместный увал">
+      <h3>04. Наш совместный увал</h3>
+      <p>Один выходной вместе, столько счастья и желание, чтобы этот день никогда не заканчивался.</p>
+    </article>
+
+    <article class="photo">
+      <img src="photos/photo5.jpg" alt="Поход в магазин">
+      <h3>05. Наши походы в магазин 🛒</h3>
+      <p>Даже обычный поход за покупками с тобой превращается в маленькое свидание. Главное ведь не куда идти, а с кем.</p>
+    </article>
+
+    <article class="photo">
+      <img src="photos/photo6.jpg" alt="Вместе">
+      <h3>06. Просто быть рядом</h3>
+      <p>Мне не всегда нужны громкие слова и большие планы. Иногда мне достаточно просто держать тебя за руку.</p>
+    </article>
+
+    <article class="photo">
+      <img src="photos/photo7.jpg" alt="Моя любимая">
+      <h3>07. Моя любимая улыбка</h3>
+      <p>Я хочу видеть твою улыбку каждый день и знать, что именно я делаю тебя чуточку счастливее.</p>
+    </article>
+
+    <article class="photo">
+      <img src="photos/photo8.jpg" alt="Наше будущее">
+      <h3>08. И это только начало...</h3>
+      <p>Впереди столько фотографий, путешествий, объятий и историй. Я хочу прожить их все с тобой.</p>
+    </article>
+
+  </div>
+</section>
+
+<section class="story">
+  <div class="inner">
+    <span class="date">09 СЕНТЯБРЯ ❤️</span>
+    <h2>День, когда началась наша история</h2>
+    <div class="heart">♥</div>
+    <p>Я не знаю, в какой именно момент ты стала для меня настолько важной. Может быть, в разговорах, в объятиях или в те минуты, когда мне просто хотелось быть рядом с тобой.</p>
+    <p><b>Но 9 сентября я решил для себя одну вещь: я сделаю тебя самой-самой счастливой женщиной на свете.</b></p>
+    <p>С этой даты я захотел не просто быть рядом, а строить с тобой наше будущее, создавать общие воспоминания и каждый день доказывать, как сильно я тебя люблю.</p>
+    <p>Именно с этого дня мы начали писать нашу историю. И я хочу, чтобы у неё никогда не было последней страницы.</p>
+  </div>
+</section>
+
+<section class="promise">
+  <div class="inner">
+    <h2>Знаешь, чего мне хочется?</h2>
+    <blockquote>Чтобы однажды мне больше не пришлось скучать по тебе на расстоянии.</blockquote>
+    <p>Чтобы я мог обнять тебя после тяжёлого дня. Чтобы мы вместе ходили в магазин, выбирали вкусняшки, смеялись над глупостями и засыпали рядом.</p>
+    <p>Я скучаю не только по особенным моментам. Я скучаю по возможности быть частью твоего обычного дня.</p>
+    <p><b>Я люблю тебя. И я выбираю тебя — сегодня, завтра и каждый следующий день. ❤️</b></p>
+  </div>
+</section>
+
+<section class="quiz" id="quiz">
+  <h2 class="section-title">Маленький тест для тебя 💌</h2>
+  <p class="subtitle">Проверим, насколько хорошо ты помнишь нашу историю. Но последний вопрос особенный...</p>
+  <div class="quiz-box">
+    <div class="progress"><div class="bar" id="bar"></div></div>
+    <p id="counter">Мои вопросы ждут тебя ❤️</p>
+    <div id="question">Любимая, я хочу узнать тебя ещё чуточку лучше... ❤️ Готова?</div>
+    <div class="answers" id="answers"></div>
+    <div id="feedback"></div>
+    <button class="btn" id="next">Начать наше приключение ❤️</button>
+    <div id="ending" class="hidden">
+      <h2>Моя любимая... ❤️</h2>
+      <p>Я хочу идти с тобой по жизни, поддерживать тебя, радовать и любить даже в самые обычные дни.</p>
+      <p class="script" style="font-size:32px">Ты — моё самое любимое совпадение.</p>
+      <p>И если ты сейчас улыбнулась, значит, я уже немного ближе к тебе. ❤️</p>
+      <button class="btn" onclick="location.href='#memories'">Перечитать нашу историю ♡</button>
+    </div>
+  </div>
+</section>
+
+<footer>Сделано с любовью. Для одной-единственной девушки. ❤️<br>9 сентября — начало нашей истории.</footer>
+
+
+<script>
+const questions = [
+  {
+    q: "Когда у тебя день рождения? 🎂",
+    placeholder: "Напиши день, месяц и, если хочешь, год...",
+    love: "Я хочу помнить все важные даты, связанные с тобой. ❤️"
+  },
+  {
+    q: "Какой твой любимый цвет? 🎨",
+    placeholder: "Напиши свой любимый цвет...",
+    love: "Теперь я знаю ещё одну маленькую деталь о тебе. 💗"
+  },
+  {
+    q: "Какое твоё любимое блюдо? 🍓",
+    placeholder: "Напиши своё любимое блюдо...",
+    love: "Однажды обязательно приготовим или закажем его вместе. ❤️"
+  },
+  {
+    q: "Куда бы ты хотела поехать в путешествие? ✈️",
+    placeholder: "Напиши город или страну своей мечты...",
+    love: "Я хочу однажды увидеть эти места вместе с тобой. 🌍❤️"
+  },
+  {
+    q: "Если бы я предложил тебе выйти за меня, ты бы согласилась? 💍",
+    placeholder: "Ответь мне от всего сердца...",
+    love: "Твой ответ очень важен для меня. Я хочу, чтобы наше будущее было счастливым для нас обоих. ❤️"
+  }
+];
+
+let current = -1;
+let locked = false;
+const userAnswers = [];
+
+const questionEl = document.getElementById("question");
+const answersEl = document.getElementById("answers");
+const feedbackEl = document.getElementById("feedback");
+const nextBtn = document.getElementById("next");
+const counterEl = document.getElementById("counter");
+const bar = document.getElementById("bar");
+const ending = document.getElementById("ending");
+
+function showQuestion() {
+  locked = false;
+  const q = questions[current];
+
+  counterEl.textContent =
+    `Вопрос ${current + 1} из ${questions.length}`;
+
+  bar.style.width =
+    `${(current / questions.length) * 100}%`;
+
+  questionEl.textContent = q.q;
+  feedbackEl.textContent = "";
+  answersEl.innerHTML = "";
+  ending.classList.add("hidden");
+  nextBtn.classList.remove("hidden");
+
+  nextBtn.textContent =
+    current === questions.length - 1
+      ? "Ответить от всего сердца 💍"
+      : "Следующий вопрос ❤️";
+
+  const textarea = document.createElement("textarea");
+
+  textarea.id = "openAnswer";
+  textarea.placeholder = q.placeholder;
+  textarea.setAttribute("aria-label", q.q);
+  textarea.rows = 3;
+
+  textarea.style.cssText = `
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    margin-top: 20px;
+    border: 1px solid #efd3dc;
+    border-radius: 13px;
+    background: white;
+    color: #482c38;
+    font: inherit;
+    font-size: 14px;
+    line-height: 1.7;
+    resize: vertical;
+    outline-color: #b94f6b;
+  `;
+
+  answersEl.appendChild(textarea);
+  textarea.focus();
+}
+
+function startQuiz() {
+  current = 0;
+  showQuestion();
+}
+
+function handleNext() {
+  if (current === -1) {
+    startQuiz();
+    return;
+  }
+
+  if (locked) {
+    current++;
+
+    if (current >= questions.length) {
+      finishQuiz();
+      return;
+    }
+
+    showQuestion();
+    return;
+  }
+
+  const textarea = document.getElementById("openAnswer");
+  const answer = textarea.value.trim();
+
+  if (!answer) {
+    feedbackEl.textContent =
+      "Напиши свой ответ, моя хорошая ❤️";
+    textarea.focus();
+    return;
+  }
+
+  userAnswers[current] = answer;
+  locked = true;
+
+  textarea.disabled = true;
+  textarea.style.background = "#fff0f4";
+
+  feedbackEl.textContent = questions[current].love;
+
+  bar.style.width =
+    `${((current + 1) / questions.length) * 100}%`;
+
+  nextBtn.textContent =
+    current === questions.length - 1
+      ? "Прочитать моё послание 💌"
+      : "Продолжить ❤️";
+}
+
+function finishQuiz() {
+  counterEl.textContent =
+    "Наша история продолжается... ❤️";
+
+  questionEl.textContent = "";
+  answersEl.innerHTML = "";
+  feedbackEl.textContent = "";
+
+  bar.style.width = "100%";
+  nextBtn.classList.add("hidden");
+  ending.classList.remove("hidden");
+}
+
+nextBtn.onclick = handleNext;
+</script>
+
+
+</body>
+</html>
